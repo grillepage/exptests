@@ -14,14 +14,14 @@ $apt-get install libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxs
  Для запуска необходима версия Node.js >= 8
 
 ## Установка cypress 
----
+
 
 ```
 $npm install cypress
 ```
 
-# Запуск cypress
----
+## Запуск cypress
+
 
 ```
 $./node_modules/.bin/cypress open
