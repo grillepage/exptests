@@ -14,17 +14,14 @@ $apt-get install libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxs
  Для запуска необходима версия Node.js >= 8
 
 ## Установка cypress 
----
+
 
 ```
 $npm install cypress
 ```
-Установка cypress локально, как dev зависимось для проекта
-```
-$npm install cypress --save-dev
-```
-# Запуск cypress
----
+
+## Запуск cypress
+
 
 ```
 $./node_modules/.bin/cypress open
@@ -33,6 +30,6 @@ $./node_modules/.bin/cypress open
 ```
 $npx cypress open
 ```
----
+
 - Ссылка на документацию cypress : https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell
 - Ссылка на первый тест : https://rscz.ru/travel/travelask-prod-tests/-/tree/master/cypress/integration/travelAsk
