@@ -30,6 +30,6 @@ $./node_modules/.bin/cypress open
 ```
 $npx cypress open
 ```
----
+
 - Ссылка на документацию cypress : https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell
 - Ссылка на первый тест : https://rscz.ru/travel/travelask-prod-tests/-/tree/master/cypress/integration/travelAsk
