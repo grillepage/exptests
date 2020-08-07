@@ -2,24 +2,18 @@
 
 
 describe('My first Test', () => {
-    it ('Visits the TravelAsk', () =>{
-        cy.visit( 'https://travelask.ru/')
-           
+    it ('Visits the TravelAsk', () => {
+        cy.fixture ('example').then(data => {
+            cy.log('Переход на главную страницу')
+            cy.visit(data.main_url)
+        
+            cy.log('Скролл в в подвал сайта')               
+            cy.scrollTo('bottom',  { duration: 3000 })
+    
+            cy.log('Скролл обратно на первый экран')
+            cy.scrollTo('top', { duration: 3000 })
+    
+
+        })
     })
-})
- 
-describe('My second test', () =>
-    it ( 'Scroll to the bottom', ()=> {
-        cy.scrollTo('bottom',  { duration: 3000 })
-
-    })
-)
-
-describe('My third test', () =>
-    it ( 'Scroll to the Top', ()=> {
-        cy.scrollTo('top', { duration: 3000 })
-
-    })
-)
-
-
+})    
