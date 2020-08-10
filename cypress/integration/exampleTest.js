@@ -2,20 +2,20 @@
 
 describe('Пробный тест главной страницы', () => {
 
-    it ('Тест кейс 1', () => {
+    it ('Test Case 1', () => {
         cy.fixture ('exampleFixtures').then(data => {
             cy.log('Переход на главную страницу')
             cy.visit(data.main_url)
         
-            cy.log('Скролл в в подвал сайта')               
+            cy.log('Скролл страницы вниз до конца')               
             cy.scrollTo('bottom',  { duration: 3000 })
     
-            cy.log('Скролл обратно на первый экран')
+            cy.log('Скролл странице вверх до конца')
             cy.scrollTo('top', { duration: 3000 })
     
         })
     })
-    it ('Тест кейс 2', () => {              
+    it ('Test case 2', () => {              
         cy.fixture ('exampleFixtures').then(data => {
             cy.log('В поле Input “Куда” напечатать текст')
             cy.get('input').click()
@@ -23,7 +23,13 @@ describe('Пробный тест главной страницы', () => {
 
             cy.log('Нажать кнопку поиск')
             cy.get(data.button_search)
-            .click()            
+            .click()
+                      
+            cy.log('Скролл страницы вниз до конца')               
+            cy.scrollTo('bottom',  { duration: 3000 })
+
+            cy.log('Скролл странице вверх до конца')
+            cy.scrollTo('top', { duration: 3000 })
         }) 
 
     })    
@@ -32,22 +38,22 @@ describe('Пробный тест главной страницы', () => {
             cy.log('возвращаемся обратно на главную страницу')
             cy.visit(data.main_url)
 
-            cy.log('Печатаем текст в строке ввода')
+            cy.log('В поле input печатаем валидный текст')
             cy.get('input').click()
             .type(data.type_text2)
 
             cy.log('Проверяем на наличие в DOM dropdown списка')
-            cy.get('body > div.wrapper > div.home > section.home__section.home__section--dark.home__section--intro > div > div.intro__content > div > div.intro__search > div.search-forms > div.cities-form > div.cities-form__search > div.cities-form__dropdown')
+            cy.get(data.drop_down1)
             .should('exist')
 
             ///временное решение, так как на сайте баг. надо подумать в сторону проверки на наличие в dropdown списке 
             ///слов Париж и прочее
             cy.wait(1000)
             
-            cy.log('Ищем Париж')
+            cy.log('Нажимаем на кнопку поиска')
             cy.get(data.button_search)
             .click()             
-    
+
         })
     })    
 })
