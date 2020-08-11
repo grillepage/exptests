@@ -32,4 +32,5 @@ $npx cypress open
 ```
 
 - Ссылка на документацию cypress : https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell
-- Ссылка на первый тест : https://rscz.ru/travel/travelask-prod-tests/-/tree/master/cypress/integration/travelAsk
+- Ссылка на первый тест : https://rscz.ru/travel/travelask-prod-tests/-/tree/master/cypress/integration
+- Ссылка на тестовую документацию:  https://drive.google.com/drive/folders/1MYhl8PpV5Dn4cODbmHhwC3sNjsiB0EMP?usp=sharing
