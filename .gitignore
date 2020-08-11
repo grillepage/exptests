@@ -1,2 +1,2 @@
 # Ignore folder node_modules
-travelask-prod-tests/node_modules
+/node_modules
