@@ -24,12 +24,9 @@ describe('Пробный тест главной страницы', () => {
             cy.log('Нажать кнопку поиск')
             cy.get(data.button_search)
             .click()
-                      
-            cy.log('Скролл страницы вниз до конца')               
-            cy.scrollTo('bottom',  { duration: 3000 })
 
-            cy.log('Скролл странице вверх до конца')
-            cy.scrollTo('top', { duration: 3000 })
+            cy.wait(3000)
+
         }) 
 
     })    
@@ -52,7 +49,7 @@ describe('Пробный тест главной страницы', () => {
             
             cy.log('Нажимаем на кнопку поиска')
             cy.get(data.button_search)
-            .click()             
+            .click()        
 
         })
     })    
