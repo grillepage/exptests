@@ -22,9 +22,6 @@ $npm install cypress
 
 ## Запуск cypress
 
-
-```
-$./node_modules/.bin/cypress open
 ```
 Если версия npm > v5.2 можно запустить с помощью npx
 ```
