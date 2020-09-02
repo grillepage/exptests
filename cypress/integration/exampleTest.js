@@ -2,38 +2,38 @@
 
 describe('Пробный тест главной страницы', () => {
 
-    it ('Test Case 1', () => {
-        cy.fixture ('exampleFixtures').then(data => {
-            cy.log('Переход на главную страницу')
-            cy.visit(data.main_url)
+    // it ('Test Case 1', () => {
+    //     cy.fixture ('exampleFixtures').then(data => {
+    //         cy.log('Переход на главную страницу')
+    //         cy.visit('/')
         
-            cy.log('Скролл страницы вниз до конца')               
-            cy.scrollTo('bottom',  { duration: 3000 })
+    //         cy.log('Скролл страницы вниз до конца')               
+    //         cy.scrollTo('bottom',  { duration: 3000 })
     
-            cy.log('Скролл странице вверх до конца')
-            cy.scrollTo('top', { duration: 3000 })
+    //         cy.log('Скролл странице вверх до конца')
+    //         cy.scrollTo('top', { duration: 3000 })
     
-        })
-    })
-    it ('Test case 2', () => {              
-        cy.fixture ('exampleFixtures').then(data => {
-            cy.log('В поле Input “Куда” напечатать текст')
-            cy.get('input').click()
-            .type(data.type_text)
+    //     })
+    // })
+    // it ('Test case 2', () => {              
+    //     cy.fixture ('exampleFixtures').then(data => {
+    //         cy.log('В поле Input “Куда” напечатать текст')
+    //         cy.get('input').click()
+    //         .type(data.type_text)
 
-            cy.log('Нажать кнопку поиск')
-            cy.get(data.button_search)
-            .click()
+    //         cy.log('Нажать кнопку поиск')
+    //         cy.get(data.button_search)
+    //         .click()
 
-            cy.wait(3000)
+    //         cy.wait(3000)
 
-        }) 
+    //     }) 
 
-    })    
+    // })    
     it ('Тест кейс 3', () => {
         cy.fixture ('exampleFixtures').then(data => {
             cy.log('возвращаемся обратно на главную страницу')
-            cy.visit(data.main_url)
+            cy.visit('/')
 
             cy.log('В поле input печатаем валидный текст')
             cy.get('input').click()
@@ -49,8 +49,15 @@ describe('Пробный тест главной страницы', () => {
             
             cy.log('Нажимаем на кнопку поиска')
             cy.get(data.button_search)
-            .click()        
+            .click()
+            beforeEach(() => {
+                // reset and seed the database prior to every test
+                cy.exec('npm run db:reset && npm run db:seed')
+                cy.request('/france/paris')     
 
-        })
+              }
+                   
+
+        )})
     })    
 })
