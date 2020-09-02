@@ -1,8 +1,0 @@
-{
-  "main_url": "https://travelask.ru/" ,
-  "type_text": "Можно ввести что угодно всё равно найдёт что то",
-  "type_text2":"Париж",
-  "button_search" : "body > div.wrapper > div.home > section.home__section.home__section--dark.home__section--intro > div > div.intro__content > div > div.intro__search > div.search-forms > div.cities-form > div.cities-form__search > div.cities-form__arrow.cities-form__arrow--red",
-  "link" : "https://travelask.ru/france/paris",
-  "drop_down1" : "body > div.wrapper > div.home > section.home__section.home__section--dark.home__section--intro > div > div.intro__content > div > div.intro__search > div.search-forms > div.cities-form > div.cities-form__search > div.cities-form__dropdown"
-}

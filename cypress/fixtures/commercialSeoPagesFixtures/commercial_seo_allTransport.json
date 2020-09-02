@@ -1,0 +1,4 @@
+{
+    "main_url": "https://travelask.ru/all_transport" ,
+    "search_form" : "body > div.wrapper > div.commercial.commercial- > div.commercial__head > div > div > div > div.commercial-head__form > div"
+}
