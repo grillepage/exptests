@@ -1,4 +1,4 @@
 {
     "main_url": "https://travelask.ru/insurance" ,
-    "search_form" : "body > div.wrapper > div.commercial.commercial- > div.commercial__head > div > div > div > div.commercial-head__form > div"
+    "search_form" : "[data-cy = commercial-form-insurance]"
 }
