@@ -1,55 +1,55 @@
 {
     "pages":[
        {
-          "url":"https://travelask.ru",
+          "url":"/",
           "title":"TravelAsk - всё о туризме: путеводитель, отзывы об отдыхе, онлайн сервисы, сообщество и блоги путешественников."
        },
        {
-          "url":"https://travelask.ru/flights",
+          "url":"/flights",
           "title":"Дешевые авиабилеты - купить билеты на самолет без комиссии на сайте TravelAsk.ru"
        },
        {
-          "url":"https://travelask.ru/railway",
+          "url":"/railway",
           "title":"Ж/Д билеты на поезда РЖД - купить онлайн, узнать цены и расписание поездов на сайте TravelAsk"
        },
        {
-          "url":"https://travelask.ru/hotels",
+          "url":"/hotels",
           "title":"Бронирование отелей на Travelask: цены со скидками до -60% от популярных систем бронирования на одном сайте!"
        },
        {
-          "url":"https://travelask.ru/bus",
+          "url":"/bus",
           "title":"Билеты на междугородние автобусы онлайн без комиссии: расписание и цены на Travelask.ru"
        },
        {
-          "url":"https://travelask.ru/insurance",
+          "url":"/insurance",
           "title":"Страховка для выезда за границу - купить туристическую страховку для визы и путешествий по Европе и миру"
        },
        {
-          "url":"https://travelask.ru/hotels/russia",
+          "url":"/hotels/russia",
           "title":"Отели России - топ лучших, отзывы, цены"
        },
        {
-          "url":"https://travelask.ru/hotels/france/paris",
+          "url":"/hotels/france/paris",
           "title":"Отели Парижа, Франция - цены, отзывы, рейтинг гостиниц Парижа"
        },
        {
-          "url":"https://travelask.ru/hotels/france/paris/3-stars",
+          "url":"/hotels/france/paris/3-stars",
           "title":"Отели Парижа 3 звезды — цены, отзывы о трехзвездочных гостиницах Парижа"
        },
        {
-          "url":"https://travelask.ru/hotels/france/paris/mini-hotels",
+          "url":"/hotels/france/paris/mini-hotels",
           "title":"Мини-отели Парижа, Франция - цены, отзывы, рейтинг мини-отелей Парижа"
        },
        {
-          "url":"https://travelask.ru/hotels/france/paris/66771_novotel-paris-les-halles",
+          "url":"/hotels/france/paris/66771_novotel-paris-les-halles",
           "title":"Novotel Paris Les Halles 4* (Париж, Иль-де-Франс, Франция) - описание, фото, отзывы, цены 2020"
        },
        {
-          "url":"https://travelask.ru/france",
+          "url":"/france",
           "title":"Интересное о Франции - достопримечательности, праздники, культура, курорты, путешествие, цены, музеи, города Франции"
        },
        {
-          "url":"https://travelask.ru/france/paris",
+          "url":"/france/paris",
           "title":"Париж - история, достопримечательности, музеи, цены на отдых, рестораны, сувениры - как добраться в Париж"
        }
     ]

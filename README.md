@@ -1,5 +1,12 @@
 # Autotests for TravelAsk witch cypress 
 
+## Часто используемые команды
+```
+npx cypress open
+npx cypress open --config baseUrl=http://localhost:8060
+npx cypress open --config baseUrl=https://rocket:rocket@stage1.rs0.ru
+```
+
 ### Запуск cypress
 ---
 Cypress - это настольное приложение, которое устанавливается на компьютер. Настольное приложение поддерживает следующие операционные системы:
@@ -13,19 +20,22 @@ $apt-get install libgtk2.0-0 libgtk-3-0 libnotify-dev libgconf-2-4 libnss3 libxs
 ```
  Для запуска необходима версия Node.js >= 8
 
-## Установка cypress 
+## Установка пакетов для проекта 
 
 
-```
-$npm install cypress
+```bash
+$ npm install
 ```
 
 ## Запуск cypress
 
-```
 Если версия npm > v5.2 можно запустить с помощью npx
+```bash
+$ npx cypress open
 ```
-$npx cypress open
+для более старых версий
+```bash
+./node_modules/.bin/cypress open
 ```
 
 - Ссылка на документацию cypress : https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell

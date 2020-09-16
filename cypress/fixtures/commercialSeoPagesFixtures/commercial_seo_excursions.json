@@ -1,4 +1,4 @@
 {
-    "main_url": "https://travelask.ru/excursions" ,
+    "main_url": "/excursions" ,
     "search_form" : "[data-cy = commercial-form-excursions]"
 }

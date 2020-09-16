@@ -1,4 +1,4 @@
 {
-    "main_url": "https://travelask.ru/rent_cars" ,
+    "main_url": "/rent_cars" ,
     "search_form" : "[data-cy = commercial-form-rent_cars]"
 }

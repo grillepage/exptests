@@ -1,4 +1,4 @@
 {
-    "main_url": "https://travelask.ru/bus" ,
+    "main_url": "/bus" ,
     "search_form" : "[data-cy = commercial-form-bus]"
 }

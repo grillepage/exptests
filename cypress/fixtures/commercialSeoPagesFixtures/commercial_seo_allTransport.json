@@ -1,4 +1,4 @@
 {
-    "main_url": "https://travelask.ru/all_transport" ,
+    "main_url": "/all_transport" ,
     "search_form" : "[data-cy = commercial-form-all_transport]"
 }

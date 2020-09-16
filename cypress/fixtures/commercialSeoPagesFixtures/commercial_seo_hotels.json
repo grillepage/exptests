@@ -1,4 +1,4 @@
 {
-    "main_url": "https://travelask.ru/hotels" ,
+    "main_url": "/hotels" ,
     "search_form" : "[data-cy = commercial-form-hotels]"
 }
