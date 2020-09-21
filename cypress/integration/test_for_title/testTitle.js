@@ -7,7 +7,7 @@ describe('Проверка title страниц', () => {
             cy.log('Переход страницу')
             cy.visit(element.url)
             cy.log('Проверка соответствия title')
-            cy.title().should('eq', element.title)
+            cy.title().should('contain', element.title)
         });
         })
     })

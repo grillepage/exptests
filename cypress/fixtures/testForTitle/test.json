@@ -5,24 +5,8 @@
           "title":"TravelAsk - всё о туризме: путеводитель, отзывы об отдыхе, онлайн сервисы, сообщество и блоги путешественников."
        },
        {
-          "url":"/flights",
-          "title":"Дешевые авиабилеты - купить билеты на самолет без комиссии на сайте TravelAsk.ru"
-       },
-       {
-          "url":"/railway",
-          "title":"Ж/Д билеты на поезда РЖД - купить онлайн, узнать цены и расписание поездов на сайте TravelAsk"
-       },
-       {
-          "url":"/hotels",
-          "title":"Бронирование отелей на Travelask: цены со скидками до -60% от популярных систем бронирования на одном сайте!"
-       },
-       {
           "url":"/bus",
           "title":"Билеты на междугородние автобусы онлайн без комиссии: расписание и цены на Travelask.ru"
-       },
-       {
-          "url":"/insurance",
-          "title":"Страховка для выезда за границу - купить туристическую страховку для визы и путешествий по Европе и миру"
        },
        {
           "url":"/hotels/russia",
@@ -42,7 +26,7 @@
        },
        {
           "url":"/hotels/france/paris/66771_novotel-paris-les-halles",
-          "title":"Novotel Paris Les Halles 4* (Париж, Иль-де-Франс, Франция) - описание, фото, отзывы, цены 2020"
+          "title":"Novotel Paris Les Halles 4* (Париж, Иль-де-Франс, Франция) - описание, фото, отзывы, цены "
        },
        {
           "url":"/france",
@@ -51,6 +35,454 @@
        {
           "url":"/france/paris",
           "title":"Париж - история, достопримечательности, музеи, цены на отдых, рестораны, сувениры - как добраться в Париж"
-       }
+       },
+      {
+        "url": "/bus/saint-petersburg-warsaw",
+        "title": "Автобус Санкт-Петербург — Варшава: расписание, цены"
+      },
+      {
+        "url": "/blog/posts/23218-kak-tri-mertvyh-kita-puteshestvovali-po-evrope-dvadtsat-let",
+        "title": "Самая странная выставка китов, путешествовавшая по Европе двадцать лет"
+      },
+      {
+        "url": "/spain/reviews",
+        "title": "Испания — достопримечательности, что посмотреть"
+      },
+      {
+        "url": "/australia/reviews",
+        "title": "Австралия — достопримечательности, что посмотреть"
+      },
+      {
+        "url": "/brasilia/reviews",
+        "title": "Бразилия — достопримечательности, что посмотреть"
+      },
+      {
+        "url": "/georgia/reviews",
+        "title": "Грузия — достопримечательности, что посмотреть"
+      },
+      {
+        "url": "/rent_cars/ulan-ude",
+        "title": "Аренда авто в Улан-Удэ от 0 руб, цены на прокат автомобилей в Улан-Удэ"
+      },
+      {
+        "url": "/excursions/ltu_vilnius",
+        "title": "Экскурсии в Вильнюсе на русском языке "
+      },
+      {
+        "url": "/excursions/ltu_vilnius_sight_bashnya-gedimina",
+        "title": "Башня Гедимина Вильнюс — экскурсии"
+      },
+      {
+        "url": "/insurance/question",
+        "title": "Оформление туристической страховки на TravelAsk.ru - FAQ (вопрос-ответ)"
+      },
+      {
+        "url": "/insurance/review/45",
+        "title": "Страховки - отзыв пользователя"
+      },
+      {
+        "url": "/insurance/review",
+        "title": "Отзывы о покупке туристической страховки на TravelAsk.ru"
+      },
+      {
+        "url": "/railway/beijing-shanghai",
+        "title": "ЖД билеты Пекин — Шанхай "
+      },
+      {
+        "url": "/insurance/routes",
+        "title": "Страховки в "
+      },
+      {
+        "url": "/articles/strahovka-dlya-polucheniya-vizy",
+        "title": "Страховка для визы - требование к страховке для \"шенгена\" и визы США"
+      },
+      {
+        "url": "/insurance/1?query%5Bcountry_name%5D=%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F&query%5Bdate_start%5D=16.12.2019&query%5Bdate_end%5D=22.12.2019&query%5Btourists%5D=1&query%5Btourist_0%5D=30",
+        "title": "Поиск лучших вариантов туристических страховок"
+      },
+      {
+        "url": "/insurance",
+        "title": "Страховка для выезда за границу - купить туристическую страховку для визы и путешествий по Европе и миру"
+      },
+      {
+        "url": "/railway/question",
+        "title": "Покупка ж/д билетов на TravelAsk.ru - FAQ (вопрос-ответ)"
+      },
+      {
+        "url": "/railway/review/47",
+        "title": "Ж/Д билеты - отзыв пользователя"
+      },
+      {
+        "url": "/railway/review",
+        "title": "TravelAsk.ru - отзывы о покупке билетов на поезд"
+      },
+      {
+        "url": "/railway/routes",
+        "title": "Все доступные железнодорожные направления"
+      },
+      {
+        "url": "/railway",
+        "title": "Ж/Д билеты на поезда РЖД - купить онлайн, узнать цены и расписание поездов на сайте TravelAsk"
+      },
+      {
+        "url": "/rent_cars/question",
+        "title": "Аренда авто на TravelAsk.ru - FAQ (вопрос-ответ)"
+      },
+      {
+        "url": "/rent_cars/review/28",
+        "title": "Аренда авто - отзыв пользователя"
+      },
+      {
+        "url": "/rent_cars/review",
+        "title": "Отзывы об аренде авто на TravelAsk.ru"
+      },
+      {
+        "url": "/rent_cars/routes",
+        "title": "183 города и 92 страны для аренды авто - выбери свой маршрут!"
+      },
+      {
+        "url": "/rent_cars",
+        "title": "Аренда авто - дешевый прокат автомобилей в России и за границей"
+      },
+      {
+        "url": "/hotels/question",
+        "title": "Бронирование отелей на TravelAsk.ru - FAQ (вопрос-ответ)"
+      },
+      {
+        "url": "/hotels/review/18",
+        "title": "Отели - отзыв пользователя"
+      },
+      {
+        "url": "/hotels/review",
+        "title": "Бронирование отелей на TravelAsk.ru - отзывы туристов"
+      },
+      {
+        "url": "/hotels",
+        "title": "Бронирование отелей на Travelask: цены со скидками до -60% от популярных систем бронирования на одном сайте!"
+      },
+      {
+        "url": "/flights/question",
+        "title": "Покупка авиабилетов на TravelAsk.ru - FAQ (вопрос-ответ)"
+      },
+      {
+        "url": "/flights/review/6",
+        "title": "Авиабилеты - отзыв пользователя"
+      },
+      {
+        "url": "/flights/review",
+        "title": "TravelAsk.ru - отзывы о покупке авиабилетов"
+      },
+      {
+        "url": "/flights/routes",
+        "title": "Все доступные направления авиаперелетов"
+      },
+      {
+        "url": "/flights",
+        "title": "Дешевые авиабилеты - купить билеты на самолет без комиссии на сайте TravelAsk.ru"
+      },
+      {
+        "url": "/contests",
+        "title": "Путешествия в вопросах и ответах"
+      },
+      {
+        "url": "/terms",
+        "title": "​Пользовательское соглашение"
+      },
+      {
+        "url": "/rules",
+        "title": "​Правила TravelAsk"
+      },
+      {
+        "url": "/sitemap",
+        "title": "TravelAsk - журнал о путешествиях, путеводитель, вопросы и ответы - Карта сайта"
+      },
+      {
+        "url": "/contact",
+        "title": "Путешествия в вопросах и ответах"
+      },
+      {
+        "url": "/advertising",
+        "title": "Путешествия в вопросах и ответах"
+      },
+      {
+        "url": "/italy/venice/routes",
+        "title": "Маршруты по Италии из Венеции - куда поехать самостоятельно?"
+      },
+      {
+        "url": "/questions/1121272-barselona-osenyu",
+        "title": "Барселоне осенью: погода, фото, что посмотреть, отзывы об отдыхе 2019"
+      },
+      {
+        "url": "/italy/venice/experience",
+        "title": "Венеция — все посты — личный опыт реальных путешественников"
+      },
+      {
+        "url": "/italy/venice/reviews",
+        "title": "Венеция — достопримечательности, что посмотреть"
+      },
+      {
+        "url": "/italy/venice/places/all",
+        "title": "Места Венеция"
+      },
+      {
+        "url": "/spain/katalonia",
+        "title": "Каталония, Испания: вся информация об отдыхе, описание достопримечательностей, путеводитель с фото 2020"
+      },
+      {
+        "url": "/reviews/popular",
+        "title": "Путешествия в вопросах и ответах"
+      },
+      {
+        "url": "/insurance/russia",
+        "title": "Медицинская страховка для визы и выезда в Россию от 30 рублей - сравнить цены и купить онлайн"
+      },
+      {
+        "url": "/rent_cars/parizh",
+        "title": "Аренда авто в Париже "
+      },
+      {
+        "url": "/flights/moscow-krasnodar",
+        "title": "Авиабилеты Москва — Краснодар "
+      },
+      {
+        "url": "/railway/kiev-moscow",
+        "title": "ЖД билеты Киев — Москва цена от "
+      },
+      {
+        "url": "/railway/moscow-saint-petersburg",
+        "title": "Москва — Санкт-Петербург билеты на поезд, цена жд билета от "
+      },
+      {
+        "url": "/railway/prague-vienna",
+        "title": "Прага — Вена билеты на поезд, цена жд билета от "
+      },
+      {
+        "url": "/insurance/south-korea",
+        "title": "Медицинская страховка для визы и выезда в Южную Корею от "
+      },
+      {
+        "url": "/questions/108929-perechislite-gory-vhodyaschie-v-alpiysko-gimalayskiy-gornyy",
+        "title": "Перечислите горы, входящие в Альпийско-Гималайский горный пояс. - Other"
+      },
+      {
+        "url": "/spain/barcelona/routes",
+        "title": "Маршруты по Испании из Барселоны - куда поехать самостоятельно?"
+      },
+      {
+        "url": "/spain/barcelona/videos",
+        "title": "Лучшие видео про Барселону 2020 — смотреть онлайн бесплатно на Travelask.ru"
+      },
+      {
+        "url": "/questions/1096911-alikante-ili-barselona-chto-luchshe",
+        "title": "Аликанте или Барселона - где лучше отдыхать? Сравнение Аликанте и Барселоны по ценам, погоде, инфраструктуре и отзывам 2019"
+      },
+      {
+        "url": "/questions/location/switzerland/luzern?conditions%5Bis_new%5D=1",
+        "title": "Люцерн (Швейцария) - 18 вопросов и 1 ответ от реальных туристов"
+      },
+      {
+        "url": "/switzerland/luzern/map",
+        "title": "Карта Люцерна с достопримечательностями на русском языке, карта метро, центра, районов и округов"
+      },
+      {
+        "url": "/switzerland/luzern/photos",
+        "title": "Лучшие фото достопримечательностей и красивых видов Люцерна от туристов и не только на Travelask.ru"
+      },
+      {
+        "url": "/questions/11697-gde-nahoditsya-lyutsern-kak-dobratsya",
+        "title": "Аэропорты Люцерна на карте: количество и названия, список, лучший аэропорт"
+      },
+      {
+        "url": "/questions/575791-kak-dobratsya-do-aeroporta-euroairport-swiss-iz-lyutserna",
+        "title": "Как добраться до аэропорта Euroairport Swiss из центра, от жд и автовокзалов города Люцерн днем и ночью?"
+      },
+      {
+        "url": "/questions/575788-kak-dobratsya-iz-aeroporta-belp-do-lyutserna",
+        "title": "Как добраться из аэропорта Belp до центра, жд и автовокзалов города Люцерна днем и ночью?"
+      },
+      {
+        "url": "/questions/9858-shveytsariya-kakie-tseny",
+        "title": "Сколько стоит отдых в Швейцарии: цены на еду, экскурсии, отели, такси"
+      },
+      {
+        "url": "/questions/57728-kak-dobratsya-iz-lyutserna-v-tsyurih",
+        "title": "Как добраться из Люцерна в Цюрих: расстояние, время в пути, цены и маршрут на карте."
+      },
+      {
+        "url": "/questions/33553-lyutsern-kakaya-pogoda-v-aprele",
+        "title": "Люцерн в апреле - что взять и что делать: отдых, погода, отзывы"
+      },
+      {
+        "url": "/questions/33562-lyutsern-kakaya-pogoda-po-mesyatsam",
+        "title": "Климат в Люцерне (Швейцария): погода по месяцам и городам, температура, влажность, дожди, рассвет и закат | Люцерн летом, осенью, зимой и весной"
+      },
+      {
+        "url": "/questions/367670-ekskursii-v-lyutserne",
+        "title": "Экскурсии в Люцерне и цены на них - отзывы туристов 2019"
+      },
+      {
+        "url": "/questions/142537-lyutsern-otzyvy-turistov",
+        "title": "Отзывы туристов об отдыхе в Люцерне (Швейцария) 2019"
+      },
+      {
+        "url": "/switzerland/luzern/places/muzei",
+        "title": "Лучшие музеи Люцерна - интересные и бесплатные - список, цены, адреса, время работы"
+      },
+      {
+        "url": "/switzerland/luzern/places",
+        "title": "Достопримечательности Люцерна - куда сходить и что посмотреть: фото, описание, отзывы самостоятельных туристов"
+      },
+      {
+        "url": "/switzerland/luzern/overview",
+        "title": "Люцерн, Швейцария: вся информация об отдыхе, описание достопримечательностей, путеводитель с фото 2020"
+      },
+      {
+        "url": "/questions/577080-kak-dobratsya-iz-aeroporta-charles-de-gaulle-do-parizha",
+        "title": "Как добраться из аэропорта Charles De Gaulle до центра, жд и автовокзалов города Парижа днем и ночью?"
+      },
+      {
+        "url": "/spain/videos",
+        "title": "Лучшие видео про Испанию 2020 — смотреть онлайн бесплатно на Travelask.ru"
+      },
+      {
+        "url": "/questions/location/switzerland?conditions%5Bis_new%5D=1",
+        "title": "ответов от реальных туристов"
+      },
+      {
+        "url": "/switzerland/map",
+        "title": "Подробная карта Швейцарии с городами и провинциями на русском языке на Travelask.ru"
+      },
+      {
+        "url": "/switzerland/photos",
+        "title": "Лучшие фото достопримечательностей и природы Швейцарии от туристов и не только на Travelask.ru"
+      },
+      {
+        "url": "/users/60516-lidiya/services",
+        "title": "Услуги предоставляемые пользователем Лидия Майер"
+      },
+      {
+        "url": "/users/60516-lidiya",
+        "title": "Лидия Майер"
+      },
+      {
+        "url": "/switzerland/locals/photographer",
+        "title": "Русские Фотографы в Швейцарии - услуги и цены"
+      },
+      {
+        "url": "/users/47527-ekaterina/services",
+        "title": "Услуги предоставляемые пользователем Ekaterina Fedorenkova"
+      },
+      {
+        "url": "/users/47527-ekaterina",
+        "title": "Ekaterina Fedorenkova"
+      },
+      {
+        "url": "/switzerland/locals/guide",
+        "title": "Русские Гиды в Швейцарии - услуги и цены"
+      },
+      {
+        "url": "/questions/788995-pogoda-v-shveytsarii-v-yanvare",
+        "title": "Швейцария в январе - куда поехать и что посмотреть: отдых, погода, отзывы"
+      },
+      {
+        "url": "/questions/788994-pogoda-v-shveytsarii-po-mesyatsam",
+        "title": "Климат Швейцарии: погода по месяцам и регионам, температура, влажность, осадки, рассвет и закат"
+      },
+      {
+        "url": "/switzerland/reyhenbahskiy-vodopad",
+        "title": "Рейхенбахский водопад - почему стоит приехать, как добраться и что посмотреть, на чем сэкономить"
+      },
+      {
+        "url": "/questions/198612-ekskursii-v-shveytsarii",
+        "title": "Экскурсии в Швейцарии и цены на них - отзывы туристов 2019"
+      },
+      {
+        "url": "/questions/141317-shveytsariya-otzyvy-turistov",
+        "title": "Отзывы туристов об отдыхе в Швейцарии 2019"
+      },
+      {
+        "url": "/switzerland/places/muzei",
+        "title": "Лучшие музеи Швейцарии - список, цены, фото, маршрут"
+      },
+      {
+        "url": "/switzerland/places",
+        "title": "Достопримечательности Швейцарии - список, описание, цены, отзывы, фото"
+      },
+      {
+        "url": "/switzerland/overview",
+        "title": "Швейцария и отдых там: вся информация о стране, описание достопримечательностей, путеводитель с фото 2020"
+      },
+      {
+        "url": "/reviews/last",
+        "title": "Отзывы об отдыхе и рассказы о путешествиях - истории и впечатления реальных туристов!"
+      },
+      {
+        "url": "/guide",
+        "title": "Туристический путеводитель по странам и городам мира."
+      },
+      {
+        "url": "/questions?conditions%5Bis_answered%5D=0",
+        "title": "Неотвеченные вопросы"
+      },
+      {
+        "url": "/questions",
+        "title": "Вопросы о путешествиях"
+      },
+      {
+        "url": "/questions?conditions%5Bis_new%5D=1",
+        "title": "Новые вопросы"
+      },
+      {
+        "url": "/blog/posts/13905-zahvatyvayuschie-vozdushnye-fotografii-zhivopisnyh-uzorov-ze",
+        "title": "Захватывающие воздушные фотографии живописных узоров Земли от московского фотографа"
+      },
+      {
+        "url": "/blog",
+        "title": "Онлайн-журнал о путешествиях и туризме для любителей активного отдыха на Travelask.ru"
+      },
+      {
+        "url": "/questions/1040889-amber-museum-ac2790b6-9054-4eb9-8ca0-619242c3b16f#answer_165415",
+        "title": "Музей янтаря (Amber Museum), Гданьск — где находится, описание, цены, фото, отзывы 2020"
+      },
+      {
+        "url": "/questions/141471-tanzaniya-otzyvy-turistov#answer_164598",
+        "title": "Отзывы туристов об отдыхе в Танзании 2019"
+      },
+      {
+        "url": "/questions/1037388-croissant-museum#answer_165406",
+        "title": "Музей круассанов (Croissant Museum), Познань — где находится, описание, цены, фото, отзывы 2020"
+      },
+      {
+        "url": "/questions/10684-opasno-li-devushke-ehat-v-gruziyu-bez-muzhskogo-soprovozhden",
+        "title": "Опасно ли девушке ехать в Грузию без мужского сопровождения? - Грузия, Тбилиси"
+      },
+      {
+        "url": "/blog/posts/13943-nepristupnyy-fort-dzhandzhira-v-indii",
+        "title": "Неприступный форт Джанджира в Индии"
+      },
+      {
+        "url": "/switzerland/z-rich/photos",
+        "title": "Лучшие фото достопримечательностей и красивых видов Цюриха от туристов и не только на Travelask.ru"
+      },
+      {
+        "url": "/questions/26501-tsyurih-kakaya-pogoda-po-mesyatsam",
+        "title": "Климат в Цюрихе (Швейцария): погода по месяцам и городам, температура, влажность, дожди, рассвет и закат | Цюрих летом, осенью, зимой и весной"
+      },
+      {
+        "url": "/switzerland/z-rich/places",
+        "title": "Достопримечательности Цюриха - куда сходить и что посмотреть: фото, описание, отзывы самостоятельных туристов"
+      },
+      {
+        "url": "/switzerland/z-rich/places/tserkvi-sobory",
+        "title": "Храмы, церкви, монастыри и соборы Цюриха - фото, названия, адреса на карте"
+      },
+      {
+        "url": "/switzerland/places/kulturnye-ob-ekty",
+        "title": "Культурные объекты и памятники всемирного наследия ЮНЕСКО в Швейцарии - список, описание, адреса, фото, отзывы"
+      },
+      {
+        "url": "/switzerland/z-rich/overview",
+        "title": "Цюрих, Швейцария: вся информация об отдыхе, описание достопримечательностей, путеводитель с фото 2020"
+      }
     ]
  }
