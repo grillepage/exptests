@@ -2,5 +2,6 @@
     "viewportWidth": 1920,
     "viewportHeight": 1080,
     "reporter": "nyan",
-    "baseUrl": "https://travelask.ru"
+    "baseUrl": "https://travelask.ru",
+    "pageLoadTimeout": 100000
   }
