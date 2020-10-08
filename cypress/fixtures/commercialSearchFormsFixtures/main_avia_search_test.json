@@ -1,0 +1,11 @@
+{
+    "url": "/",
+    "button": ".home-switcher__buttons-wrap",
+    "button_text": "Авиабилеты",
+    "form": ".field-base__control-wrap",
+    "from": "Москва",
+    "to": "Берлин",
+    "from_form": ".field-list__input field-list__input--aviahome",
+    "to_form": ".field-list__input field-list__input--aviahome"
+
+}
