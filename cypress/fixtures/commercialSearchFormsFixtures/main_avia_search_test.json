@@ -3,9 +3,15 @@
     "button": ".home-switcher__buttons-wrap",
     "button_text": "Авиабилеты",
     "form": ".field-base__control-wrap",
-    "from": "Москва",
-    "to": "Берлин",
-    "from_form": ".field-list__input field-list__input--aviahome",
-    "to_form": ".field-list__input field-list__input--aviahome"
-
+    "from_form": ".field-base__control-wrap",
+    "from_form_text": "Откуда",
+    "from_form_type": "Москва",
+    "to_form": ".field-base__control-wrap",
+    "to_form_text": "Куда",
+    "to_form_type": "Берлин",
+    "air_choose": ".city-item__code",
+    "air_1": "MOW",
+    "air_2": "BER",
+    "date_from": "Туда",
+    "date_to": "Обратно"
 }
