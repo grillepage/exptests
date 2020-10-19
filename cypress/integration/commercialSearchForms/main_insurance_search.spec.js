@@ -17,11 +17,11 @@ describe('Тест работы коммерческой поисковой фо
             cy.wrap(formInsurance).find('.country-item__name').should('contain', 'Италия').click()
             // Проверка выбора даты заселения
             cy.wrap(formInsurance).find('[class="datepicker-inline"]').eq(0).then( calendar_from => {
-                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click()
+                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click({force: true})
             })
             // Проверка выбора даты выселения
             cy.wrap(formInsurance).find('[class="datepicker-inline"]').eq(1).then( calendar_to => {
-                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click()
+                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click({force:true})
             })
             // Проверка поля выбора количества людей
             cy.wrap(formInsurance).find('.field-base__label').eq(3).click()

@@ -19,11 +19,11 @@ describe('Тест работы коммерческой поисковой фо
             cy.wrap(formHotels).find('.country-item__name').eq(0).should('contain', 'Барселона').click()
             // Проверка выбора даты заселения
             cy.wrap(formHotels).find('[class="datepicker-inline"]').eq(0).then( calendar_from => {
-                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click()
+                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click({force: true})
             })
             // Проверка выбора даты выселения
             cy.wrap(formHotels).find('[class="datepicker-inline"]').eq(1).then( calendar_to => {
-                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click()
+                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click({force: true})
             })
             // Проверка поля выбора количества жильцов
             cy.wrap(formHotels).find('[label="Номера для"]').click()

@@ -22,11 +22,11 @@ describe('Тест работы коммерческой поисковой фо
             cy.wrap(formRent).find('.airport-item__name').eq(0).should('contain', 'Барселона').click()
             // Проверка выбора даты получения
             cy.wrap(formRent).find('[class="datepicker-inline"]').eq(0).then( calendar_from => {
-                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click()
+                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click({force: true})
             })
             // Проверка выбора даты возврата
             cy.wrap(formRent).find('[class="datepicker-inline"]').eq(1).then( calendar_to => {
-                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click()
+                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click({force: true})
             })
             // Включить закомментированные строки ниже, когда починят выдачу по аренде
             // Проверка активации поиска

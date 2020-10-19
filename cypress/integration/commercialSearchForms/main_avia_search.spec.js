@@ -8,10 +8,10 @@ describe('Тест работы коммерческой поисковой фо
             // Проверка видимости формы
             cy.wrap(formAvia).should('be.visible')
             // Ввод города, откуда вылет
-            cy.wrap(formAvia).find('[label="Откуда"]').click().type('Москва')
+            cy.wrap(formAvia).find('[label="Откуда"]').type('Москва')
                 .find('.city-item__code').eq(0).click()
             // Ввод города, куда прибытие
-            cy.wrap(formAvia).find('[label="Куда"]').click().type('Лондон')
+            cy.wrap(formAvia).find('[label="Куда"]').type('Лондон')
                 .find('.city-item__code').eq(0).click()
             cy.wait(1000)
 
@@ -20,7 +20,7 @@ describe('Тест работы коммерческой поисковой фо
 
             // Выбор даты вылета (сегодняшний день)
             cy.wrap(formAvia).find('.datepicker--content').then( calendar_from => {
-                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click()
+                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click({force: true})
             })
             cy.wait(1000)
 
@@ -28,7 +28,7 @@ describe('Тест работы коммерческой поисковой фо
 
             // Выбор даты прибытия (1 число следующего месяца)
             cy.wrap(formAvia).find('[class="field-date__container field-date__container--last"]').then( calendar_to => {
-                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click()
+                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click({force: true})
             })
             cy.wait(1000)
             // Выбор пассажиров (2 взрослых человека, эконом)

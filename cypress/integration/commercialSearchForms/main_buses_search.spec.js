@@ -22,11 +22,11 @@ describe('Тест работы коммерческой поисковой фо
             cy.wrap(formBuses).find('.transport-item__text').eq(0).should('contain', 'Москва').click()
             // Проверка выбора даты отбытия
             cy.wrap(formBuses).find('[class="datepicker-inline"]').eq(0).then( calendar_from => {
-                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click()
+                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click({force: true})
             })
             // Проверка выбора даты возвращения
             cy.wrap(formBuses).find('[class="datepicker-inline"]').eq(1).then( calendar_to => {
-                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click()
+                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click({force: true})
             })
             // Проверка поле выбора количества путешественников
             cy.wrap(formBuses).find('[label="Количество путешественников"]').click()

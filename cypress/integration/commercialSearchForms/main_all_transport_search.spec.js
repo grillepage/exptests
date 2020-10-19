@@ -18,14 +18,21 @@ describe('Тест работы коммерческой поисковой фо
             // Проверка видимости меню предложенных
             cy.wrap(formTransport).find('.field-cities-list').should('be.visible')
             cy.wrap(formTransport).find('.transport-item__text').eq(0).should('contain', 'Москва').click()
+            cy.wait(1000)
             // Проверка выбора даты отбытия
+            cy.wrap(formTransport).find('[label="Туда"]').click()
             cy.wrap(formTransport).find('[class="datepicker-inline"]').eq(0).then( calendar_from => {
-                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click()
+                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click({force: true})
             })
+            cy.wait(1000)
+            cy.wrap(formTransport).find('[label="Откуда"]').click()
+            cy.wait(1000)
             // Проверка выбора даты возвращения
+            cy.wrap(formTransport).find('[label="Обратно"]').click({force: true})
             cy.wrap(formTransport).find('[class="datepicker-inline"]').eq(1).then( calendar_to => {
-                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click()
+                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click({force: true})
             })
+            cy.wait(1000)
             // Проверка поле выбора количества путешественников
             cy.wrap(formTransport).find('[label="Количество путешественников"]').click()
             cy.wrap(formTransport).find('.field-all-travelers__container').should('be.visible')

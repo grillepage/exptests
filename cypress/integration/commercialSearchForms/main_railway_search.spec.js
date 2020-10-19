@@ -22,11 +22,11 @@ describe('Тест работы коммерческой поисковой фо
             cy.wrap(formRailway).find('.train-item__name').eq(0).should('contain', 'Санкт-Петербург').click()
             // Проверка выбора даты отбытия
             cy.wrap(formRailway).find('[class="datepicker-inline"]').eq(0).then( calendar_from => {
-                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click()
+                cy.wrap(calendar_from).find('[class="datepicker--cell datepicker--cell-day -current-"]').click({force: true})
             })
             // Проверка выбора даты возвращения
             cy.wrap(formRailway).find('[class="datepicker-inline"]').eq(1).then( calendar_to => {
-                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click()
+                cy.wrap(calendar_to).find('[data-date="1"].-other-month-').click({force: true})
             })
             // Активация поиска
             cy.wrap(formRailway).find('[class="search-forms__button railway-search__btn"]').click()
