@@ -2,7 +2,7 @@
 
 describe('Тест авторизации на главной', () => {
     it('Тест авторизации', () => {
-        cy.fixture('authorization/autrhorization_test.json').then( info => {
+        cy.fixture('authorization/authorization_test.json').then( info => {
             // Переход на страницу
             cy.visit('/')
             // Переход к авторизации
