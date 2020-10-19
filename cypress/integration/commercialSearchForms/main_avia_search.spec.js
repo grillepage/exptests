@@ -7,8 +7,10 @@ describe('Тест работы коммерческой поисковой фо
         cy.get('[data-cy="commercial-form-avia"]').then( formAvia => {
             // Проверка видимости формы
             cy.wrap(formAvia).should('be.visible')
+            cy.wait(1000)
             // Ввод города, откуда вылет
             cy.wrap(formAvia).find('[label="Откуда"]').type('Москва')
+                .wait(500)
                 .find('.city-item__code').eq(0).click()
             // Ввод города, куда прибытие
             cy.wrap(formAvia).find('[label="Куда"]').type('Лондон')
