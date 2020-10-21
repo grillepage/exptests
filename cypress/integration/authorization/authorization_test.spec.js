@@ -5,6 +5,7 @@ describe('Тест авторизации на главной', () => {
         cy.fixture('authorization/authorization_test.json').then( info => {
             // Переход на страницу
             cy.visit('/')
+            cy.wait(2000)
             // Переход к авторизации
             cy.get('[class="alt-header__action js-signin"]').click()
             // Проверка видимости формы авторизации
