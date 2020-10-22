@@ -34,7 +34,8 @@ cypress-e2e:
   image: cypress/base:12
   stage: test
   script:
-    - $(npm bin)/cypress run
+    - env
+    - $(npm bin)/cypress run --env login=$TA_LOGIN,password=$TA_PASSWORD
   artifacts:
     expire_in: 2 day
     when: always
