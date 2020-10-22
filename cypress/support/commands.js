@@ -1,42 +1,4 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add("login", (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add("drag", { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add("dismiss", { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
-
-let LOCAL_STORAGE_MEMORY = {};
-
-Cypress.Commands.add("saveLocalStorage", () => {
-  Object.keys(localStorage).forEach(key => {
-    LOCAL_STORAGE_MEMORY[key] = localStorage[key];
-  });
-});
-
-Cypress.Commands.add("restoreLocalStorage", () => {
-  Object.keys(LOCAL_STORAGE_MEMORY).forEach(key => {
-    localStorage.setItem(key, LOCAL_STORAGE_MEMORY[key]);
-  });
-});
+// Кастомные команды для Cypress под нужды проекта
 
 // Команда для логина на Travelask
 Cypress.Commands.add("loginTravel", () => {
@@ -62,4 +24,25 @@ Cypress.Commands.add("loginTravel", () => {
         cy.get('[property="og:url"]').invoke('attr', 'content').should('eq', info.end_page)
         cy.wait(1000)
     })
+})
+
+
+
+// Команда для тестирования мета тегов
+Cypress.Commands.add("metaCheck", () => {
+  cy.fixture('metaTags/metaTags_test.json').then( info => {
+    // Вспомогательная функция для проверки существования элемента (первым аргументом вписывать селектор, вторым - часть DOM (head, body и т.д.))
+    function checkElemExists(elem, part) {
+      cy.get(part).then( allPart => {
+        if (allPart.find(elem).length > 0) {
+          // Выполнение проверки отсутствия в мета тегах элементов из фикстуры
+          cy.get(elem).invoke('attr', 'content').should('not.contain', info.meta)
+        }
+      })
+    }
+    // Выполнение проверок по элементам
+    checkElemExists('meta[property="og:description"]', 'head')
+    checkElemExists('meta[name="description"]', 'head')
+    checkElemExists('meta[property="og:url"]', 'head')
+  })
 })
