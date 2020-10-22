@@ -1,4 +1,4 @@
-# Autotests for TravelAsk witch cypress 
+# Autotests for TravelAsk with cypress 
 
 ## Часто используемые команды
 ```
@@ -40,6 +40,10 @@ $ npx cypress open
 Если нужно запустить только тесты с авторизацией - добавить спек:
 ```bash
 --spec 'cypress/integration/authorization_dependent/**/*'
+```
+Если нужно запустить только тесты без авторизации - добавить спек:
+```bash
+--spec 'cypress/integration/authorization_without/**/*'
 ```
 Если нужно запустить тесты с кастомными данными авторизации:
 ```bash
