@@ -37,6 +37,14 @@ $ npx cypress open
 ```bash
 ./node_modules/.bin/cypress open
 ```
+Если нужно запустить только тесты с авторизацией - добавить спек:
+```bash
+--spec 'cypress/integration/authorization_dependent/**/*'
+```
+Если нужно запустить тесты с кастомными данными авторизации:
+```bash
+--env login=нужныйемейл,password=нужныйпароль
+```
 
 - Ссылка на документацию cypress : https://docs.cypress.io/guides/overview/why-cypress.html#In-a-nutshell
 - Ссылка на первый тест : https://rscz.ru/travel/travelask-prod-tests/-/tree/master/cypress/integration

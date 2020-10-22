@@ -1,7 +1,10 @@
+// import authorization from '../authorization/authorization_func.spec'
 /// <reference types= "cypress" />
+
 
 describe('Тест работы коммерческой поисковой формы для всего транспорта на сайте', () => {
     it('Тест Весь транспорт', () => {
+        // Далее исполняется сам тест
         cy.visit('/')
         // Выбор Всего транспорта
         cy.get('[data-cy="commercial-form-container"]').contains('Весь транспорт').click()
